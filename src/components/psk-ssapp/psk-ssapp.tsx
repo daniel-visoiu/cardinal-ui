@@ -1,8 +1,7 @@
 import { Component, h, Prop, State, Element, Watch } from '@stencil/core';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
 import { MatchResults, RouterHistory } from "@stencil/router";
-import { BindModel } from "../../decorators/BindModel";
-import CustomTheme from "../../decorators/CustomTheme";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
 import SSAppInstanceRegistry from "./SSAppInstancesRegistry.js";
 import NavigatinTrackerService from "./NavigationTrackerService.js";
 

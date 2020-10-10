@@ -1,6 +1,6 @@
 import {Component, h, Prop, State, Element, Event, EventEmitter} from "@stencil/core";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import {normalizeModelChain, stringToBoolean} from "../../utils/utilFunctions";
+import { TableOfContentProperty } from 'cardinal-core/decorators';
+import { normalizeModelChain, stringToBoolean } from 'cardinal-core/utils';
 
 const SLOT_CONDITION_FALSE = 'condition-false';
 const SLOT_CONDITION_TRUE = 'condition-true';

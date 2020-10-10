@@ -1,7 +1,7 @@
 import {Component, h, Prop, Element, State} from "@stencil/core";
 import {injectHistory, RouterHistory} from "@stencil/router";
 
-import { ContainerController as DefaultContainerController } from 'cardinal-core/controllers/base-controllers';
+import { ContainerController as DefaultContainerController } from 'cardinal-core/controllers';
 import { CustomTheme, TableOfContentProperty } from 'cardinal-core/decorators';
 import { ControllerRegistryService } from 'cardinal-core/services';
 

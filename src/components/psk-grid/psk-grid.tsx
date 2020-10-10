@@ -1,9 +1,6 @@
 import {Component, Element, h, Prop} from '@stencil/core';
-import {TableOfContentProperty} from '../../decorators/TableOfContentProperty';
-import CustomTheme from '../../decorators/CustomTheme';
-import {GRID_BREAKPOINTS, GRID_HIDDEN_BREAKPOINTS, GRID_IGNORED_COMPONENTS} from '../../utils/constants';
-import {BindModel} from '../../decorators/BindModel';
-import {normalizeDashedToCamelCase} from "../../utils/utilFunctions";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { normalizeDashedToCamelCase, GRID_BREAKPOINTS, GRID_HIDDEN_BREAKPOINTS, GRID_IGNORED_COMPONENTS } from 'cardinal-core/utils';
 
 interface BreakPoint {
 	breakpoint: string,

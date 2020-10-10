@@ -1,7 +1,6 @@
 import {Component, Element, h, Prop, State} from '@stencil/core';
-import CustomTheme from '../../decorators/CustomTheme';
-import {BindModel} from "../../decorators/BindModel";
-import {TableOfContentProperty} from "../../decorators/TableOfContentProperty";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
 import {iconModels} from "./iconModels.js"
 
 @Component({

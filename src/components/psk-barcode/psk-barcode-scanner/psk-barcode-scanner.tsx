@@ -1,12 +1,11 @@
 import {Component, h, Prop, Element} from '@stencil/core';
-import CustomTheme from "../../../decorators/CustomTheme";
-import {BindModel} from '../../../decorators/BindModel';
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { stringToBoolean } from 'cardinal-core/utils';
+
 import audioData from './audioData.js';
-import {stringToBoolean} from "../../../utils/utilFunctions";
 import BarcodeUtilFunctions from "./barcode-util-functions.js";
 import VideoOverlay  from "./VideoOverlay.js";
 import ImageOverlay  from "./ImageOverlay.js";
-import {TableOfContentProperty} from "../../../decorators/TableOfContentProperty";
 const SCAN_TIMEOUT = 100;
 
 @Component({

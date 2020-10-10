@@ -1,8 +1,6 @@
 import { Component, h, Prop, Event, EventEmitter, State, Watch } from '@stencil/core'
-import {StyleCustomisation} from '../../interfaces/StyleCustomisation'
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { TableOfContentEvent } from '../../decorators/TableOfContentEvent';
-import CustomTheme from '../../decorators/CustomTheme';
+import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { StyleCustomisation } from 'cardinal-core/interfaces';
 
 @Component({
     tag: "psk-ui-toast",

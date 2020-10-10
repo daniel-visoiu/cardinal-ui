@@ -1,7 +1,6 @@
 import { Component, h, Prop } from '@stencil/core';
-import { WizardStep } from '../../interfaces/Wizard';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import CustomTheme from '../../decorators/CustomTheme';
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { WizardStep } from 'cardinal-core/interfaces';;
 
 @Component({
     tag: 'psk-stepper-renderer',

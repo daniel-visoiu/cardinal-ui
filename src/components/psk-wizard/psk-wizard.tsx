@@ -1,10 +1,7 @@
 import { Component, h, Prop, State, Event, EventEmitter, Element } from '@stencil/core';
-import { WizardStep } from '../../interfaces/Wizard';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { TableOfContentEvent } from '../../decorators/TableOfContentEvent';
-import CustomTheme from '../../decorators/CustomTheme';
-import WizardEvent from "../../events/WizardEvent";
-import {BindModel} from "../../decorators/BindModel";
+import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { WizardEvent } from 'cardinal-core/events';
+import { WizardStep } from 'cardinal-core/interfaces';
 
 @Component({
     tag: 'psk-wizard',

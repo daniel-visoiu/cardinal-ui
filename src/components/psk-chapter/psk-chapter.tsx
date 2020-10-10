@@ -1,10 +1,7 @@
 import { Component, h, Prop, Event, EventEmitter, Listen, getElement, State } from "@stencil/core";
-import { Chapter } from "../../interfaces/Chapter";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import CustomTheme from "../../decorators/CustomTheme";
-import { TableOfContentEvent } from "../../decorators/TableOfContentEvent";
-import { normalizeElementId } from "../../utils/utilFunctions";
-import { BindModel } from "../../decorators/BindModel";
+import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { Chapter } from 'cardinal-core/interfaces';
+import { normalizeElementId } from 'cardinal-core/utils';
 
 @Component({
 	tag: "psk-chapter",

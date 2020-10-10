@@ -1,7 +1,7 @@
 import { Component, h, Prop } from "@stencil/core";
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
 import Config from "./Config.js";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import CustomTheme from '../../decorators/CustomTheme';
 
 @Component({
     tag: "psk-highlight",

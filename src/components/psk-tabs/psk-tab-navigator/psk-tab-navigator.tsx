@@ -1,7 +1,5 @@
 import { Component, Element, Prop, State, Listen, h } from "@stencil/core";
-
-import CustomTheme from "../../../decorators/CustomTheme";
-import { TableOfContentProperty } from "../../../decorators/TableOfContentProperty";
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 @Component({
   tag: 'psk-tab-navigator',

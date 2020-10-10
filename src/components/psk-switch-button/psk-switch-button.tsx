@@ -1,8 +1,6 @@
 import { Component, h, Prop, Element, State } from '@stencil/core';
-import CustomTheme from '../../decorators/CustomTheme';
-import PskButtonEvent from "../../events/PskButtonEvent";
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { BindModel } from '../../decorators/BindModel';
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { PskButtonEvent } from 'cardinal-core/events';;
 
 const ACCEPTED_DEFAULT_DISPATCHERS = [document, window];
 

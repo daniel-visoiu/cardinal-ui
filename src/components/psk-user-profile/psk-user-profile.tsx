@@ -1,7 +1,5 @@
 import { Component, h, EventEmitter, Event, Prop, } from '@stencil/core';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { TableOfContentEvent } from '../../decorators/TableOfContentEvent';
-import {BindModel} from '../../decorators/BindModel';
+import { BindModel, TableOfContentEvent, TableOfContentProperty } from 'cardinal-core/decorators';
 
 @Component({
   tag: 'psk-user-profile'

@@ -1,5 +1,5 @@
 import {h, Component, Prop, getElement, State} from '@stencil/core';
-import {BindModel} from "../../decorators/BindModel";
+import { BindModel } from 'cardinal-core/decorators';
 
 
 @Component({

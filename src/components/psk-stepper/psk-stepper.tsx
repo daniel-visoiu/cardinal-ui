@@ -1,6 +1,6 @@
 import { Component, h, Prop } from '@stencil/core';
-import { WizardStep } from '../../interfaces/Wizard';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
+import { TableOfContentProperty } from 'cardinal-core/decorators';
+import { WizardStep } from 'cardinal-core/interfaces';
 
 @Component({
     tag: 'psk-stepper'

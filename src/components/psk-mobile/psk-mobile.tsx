@@ -1,9 +1,7 @@
 import { Component, Prop, State, Element, Listen, Method, h } from "@stencil/core";
 import { RouterHistory } from "@stencil/router";
-
-import CustomTheme from "../../decorators/CustomTheme";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import ControllerRegistryService from "../../services/ControllerRegistryService";
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { ControllerRegistryService } from 'cardinal-core/services';
 
 @Component({
   tag: 'psk-mobile',

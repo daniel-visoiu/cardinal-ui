@@ -1,7 +1,5 @@
 import { Component, h, Event, EventEmitter, State, Prop, Listen } from '@stencil/core';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { TableOfContentEvent } from '../../decorators/TableOfContentEvent';
-import CustomTheme from '../../decorators/CustomTheme';
+import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 @Component({
 	tag: 'psk-pin-popup',

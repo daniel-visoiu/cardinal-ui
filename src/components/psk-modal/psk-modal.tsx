@@ -1,10 +1,6 @@
 import { Component, Prop, Element, Event, EventEmitter, h } from "@stencil/core";
-
-import { BindModel } from "../../decorators/BindModel";
-import CustomTheme from "../../decorators/CustomTheme";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import { TableOfContentEvent } from "../../decorators/TableOfContentEvent";
-import PskButtonEvent from "../../events/PskButtonEvent";
+import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { PskButtonEvent } from 'cardinal-core/events';
 
 @Component({
   tag: 'psk-modal',

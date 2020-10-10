@@ -1,12 +1,10 @@
 import { Component, h, Prop, Element } from '@stencil/core';
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 // @ts-ignore
 // TODO: Check the posibility to integrate PrismJs internaly
 import Prism from 'prismjs';
-import PrismLiveEditor from '../../libs/prismLive.js';
-import { BindModel } from '../../decorators/BindModel';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import CustomTheme from "../../decorators/CustomTheme";
+import PrismLiveEditor from '@libs/prismLive.js';
 
 @Component({
 	tag: 'psk-live-code',

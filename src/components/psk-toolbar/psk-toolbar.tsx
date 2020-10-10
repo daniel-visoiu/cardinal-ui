@@ -1,8 +1,6 @@
 import { Component, Prop, h, Element } from '@stencil/core';
-import CustomTheme from '../../decorators/CustomTheme';
-import { ACTIONS_ICONS } from '../../utils/constants';
-import { createCustomEvent } from '../../utils/utilFunctions';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { ACTIONS_ICONS, createCustomEvent } from 'cardinal-core/utils';
 
 @Component({
     tag: "psk-toolbar",

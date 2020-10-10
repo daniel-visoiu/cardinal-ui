@@ -15,13 +15,17 @@
     "noUnusedParameters": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "cardinal-core/*": [
-        // "./node_modules/cardinal-core/dist/types/*",
-        "./node_modules/cardinal-core/dist/collection/*"
+        "cardinal-core/src/*",
+      ],
+      "@libs/*": [
+        "src/libs/*"
       ]
-    }
+    },
+    // "allowJs": true,
+    // "traceResolution": true
   },
   "include": [
     "src",
@@ -29,6 +33,7 @@
     "types/jsx.d.ts"
   ],
   "exclude": [
+    "src/libs",
     "node_modules"
   ]
 }

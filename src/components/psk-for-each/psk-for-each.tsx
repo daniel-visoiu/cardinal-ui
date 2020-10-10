@@ -1,6 +1,6 @@
 import {Component, Prop, Element, State, h, Event, EventEmitter} from '@stencil/core';
-import {TableOfContentProperty} from '../../decorators/TableOfContentProperty';
-import {normalizeModelChain} from "../../utils/utilFunctions";
+import { TableOfContentProperty } from 'cardinal-core/decorators';
+import { normalizeModelChain } from 'cardinal-core/utils';
 
 @Component({
   tag: 'psk-for-each'

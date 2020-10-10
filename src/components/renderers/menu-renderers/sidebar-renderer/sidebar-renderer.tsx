@@ -1,7 +1,6 @@
 import {Component, h, Prop} from '@stencil/core';
-import {MenuItem} from "../../../../interfaces/MenuItem";
-import CustomTheme from "../../../../decorators/CustomTheme";
-import {ExtendedHistoryType} from "../../../../interfaces/ExtendedHistoryType";
+import { CustomTheme } from 'cardinal-core/decorators';
+import { ExtendedHistoryType, MenuItem } from 'cardinal-core/interfaces';
 
 @Component({
   tag: 'sidebar-renderer',

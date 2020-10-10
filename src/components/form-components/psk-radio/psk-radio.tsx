@@ -1,9 +1,6 @@
 import { h, Component, Prop, Event } from '@stencil/core';
 import { EventEmitter } from '@stencil/router/dist/types/stencil.core';
-import { TableOfContentEvent } from '../../../decorators/TableOfContentEvent';
-import { TableOfContentProperty } from '../../../decorators/TableOfContentProperty';
-import CustomTheme from '../../../decorators/CustomTheme';
-import { BindModel } from '../../../decorators/BindModel';
+import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 @Component({
     tag: 'psk-radio'

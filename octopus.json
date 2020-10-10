@@ -7,16 +7,16 @@
       "actions": [
         {
           "type": "smartClone",
-          "target": "./node_modules/",
+          "target": "./",
           "collectLog": false
         },
         {
           "type": "execute",
-          "cmd": "cd ./node_modules/cardinal-core && npm install"
+          "cmd": "cd ./cardinal-core && npm install"
         },
         {
           "type": "execute",
-          "cmd": "cd ./node_modules/cardinal-core && npm run build"
+          "cmd": "cd ./cardinal-core && npm run build"
         }
       ]
     }

@@ -1,6 +1,6 @@
 import {Component, h, Prop, State, Element} from '@stencil/core';
 import {injectHistory, RouterHistory} from "@stencil/router";
-import SubMenuItemsEvent from "../../../../events/SubMenuItemsEvent";
+import { SubMenuItemsEvent } from 'cardinal-core/events';
 
 @Component({
   tag: 'event-expandable-renderer',

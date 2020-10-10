@@ -1,10 +1,6 @@
 import { Component, h, Prop, Listen, getElement } from '@stencil/core';
-
-import CustomTheme from '../../decorators/CustomTheme';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { BindModel } from '../../decorators/BindModel';
-import {stringToBoolean} from "../../utils/utilFunctions";
-
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { stringToBoolean } from 'cardinal-core/utils';
 
 @Component({
     tag: 'psk-button-group',

@@ -1,10 +1,9 @@
 import { Component, State, Event, EventEmitter, Listen, h, Prop, Watch } from "@stencil/core";
-import { Message } from '../../interfaces/FeedbackMessage'
-import { StyleCustomisation } from '../../interfaces/StyleCustomisation'
+import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { Message, StyleCustomisation } from 'cardinal-core/interfaces';
+
 import Config from "./Config.js";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import { TableOfContentEvent } from "../../decorators/TableOfContentEvent";
-import CustomTheme from "../../decorators/CustomTheme";
+
 @Component({
     tag: 'psk-list-feedbacks',
     shadow: true

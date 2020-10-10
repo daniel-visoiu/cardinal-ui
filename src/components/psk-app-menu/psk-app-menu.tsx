@@ -1,13 +1,8 @@
 import { Component, Listen, Prop, State, Event, EventEmitter, h } from '@stencil/core';
 
-import { MenuItem } from "../../interfaces/MenuItem";
-import { ExtendedHistoryType } from "../../interfaces/ExtendedHistoryType";
-
-import CustomTheme from "../../decorators/CustomTheme";
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import { TableOfContentEvent } from '../../decorators/TableOfContentEvent';
-
-import { MOBILE_MAX_WIDTH } from "../../utils/constants";
+import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { MenuItem, ExtendedHistoryType } from 'cardinal-core/interfaces';
+import { MOBILE_MAX_WIDTH } from 'cardinal-core/utils';
 
 @Component({
   tag: 'psk-app-menu',

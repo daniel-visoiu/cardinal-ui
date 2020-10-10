@@ -6,12 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { LocationSegments, MatchResults, RouterHistory } from "@stencil/router";
-import { MenuItem } from "./interfaces/MenuItem";
-import { ExtendedHistoryType } from "./interfaces/ExtendedHistoryType";
-import { BreadcrumbSegment } from "./interfaces/BreadcrumbSegment";
-import { StyleCustomisation } from "./interfaces/StyleCustomisation";
-import { SelectType } from "./interfaces/FormModel";
-import { WizardStep } from "./interfaces/Wizard";
+import { BreadcrumbSegment, ExtendedHistoryType, MenuItem, SelectType, StyleCustomisation, WizardStep } from "cardinal-core/interfaces";
 export namespace Components {
     interface DropdownRenderer {
         "active": boolean;

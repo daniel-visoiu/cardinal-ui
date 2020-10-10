@@ -1,9 +1,9 @@
 import { Component, h, Prop, Event, EventEmitter, State, Watch } from '@stencil/core'
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { StyleCustomisation } from 'cardinal-core/interfaces';
+
 import Config from "../psk-list-feedbacks/Config.js";
 
-import {StyleCustomisation} from '../../interfaces/StyleCustomisation';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import CustomTheme from '../../decorators/CustomTheme';
 @Component({
     tag: "psk-ui-alert",
     styleUrl:"../../assets/css/bootstrap/bootstrap.css",

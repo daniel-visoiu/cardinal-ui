@@ -1,9 +1,9 @@
 import {Component, h, Prop, Element, State, Watch} from '@stencil/core';
-import CustomTheme from "../../../decorators/CustomTheme";
-import {BindModel} from '../../../decorators/BindModel';
-import {stringToBoolean} from "../../../utils/utilFunctions";
-import {TableOfContentProperty} from "../../../decorators/TableOfContentProperty";
-import bwipjs from "../../../libs/bwip.js";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { stringToBoolean } from 'cardinal-core/utils';
+
+import bwipjs from "@libs/bwip.js";
+
 const TWO_D_BARCODES = ["datamatrix","gs1datamatrix","qrcode"];
 @Component({
   tag: 'psk-barcode-generator',

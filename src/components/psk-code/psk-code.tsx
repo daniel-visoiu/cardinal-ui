@@ -3,9 +3,7 @@ import Prism from 'prismjs';
 import "prismjs/components/prism-json.js";
 import "prismjs/components/prism-bash.js";
 import "prismjs/components/prism-shell-session.js";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import CustomTheme from "../../decorators/CustomTheme";
-import { BindModel } from "../../decorators/BindModel";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 const HTML_COMMENT_TAG = /<!---->/gm;
 

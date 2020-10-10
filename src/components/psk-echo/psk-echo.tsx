@@ -1,6 +1,5 @@
 import { Component, Prop } from '@stencil/core';
-import { BindModel } from "../../decorators/BindModel";
-import {TableOfContentProperty} from "../../decorators/TableOfContentProperty";
+import { BindModel, TableOfContentProperty } from 'cardinal-core/decorators';
 
 @Component({
   tag: 'psk-echo'

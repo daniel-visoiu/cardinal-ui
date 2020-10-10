@@ -1,9 +1,6 @@
 import { Component, h, Prop, Element, Event, EventEmitter, State } from "@stencil/core";
-import {closestParentElement, normalizeElementId, scrollToElement} from "../../utils/utilFunctions";
-import {TOOLTIP_TEXT, TOOLTIP_COPIED_TEXT} from "../../utils/constants";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import CustomTheme from "../../decorators/CustomTheme";
-import { TableOfContentEvent } from "../../decorators/TableOfContentEvent";
+import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { closestParentElement, normalizeElementId, scrollToElement, TOOLTIP_TEXT, TOOLTIP_COPIED_TEXT } from 'cardinal-core/utils';
 
 @Component({
   tag: "psk-copy-clipboard",

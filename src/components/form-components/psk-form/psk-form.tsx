@@ -1,8 +1,7 @@
 import {Component, h, Prop, Element, State} from '@stencil/core';
-import CustomTheme from '../../../decorators/CustomTheme';
-import ControllerRegistryService from "../../../services/ControllerRegistryService";
-import {TableOfContentProperty} from '../../../decorators/TableOfContentProperty';
 import {injectHistory, RouterHistory} from "@stencil/router";
+import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { ControllerRegistryService } from "cardinal-core/services";
 
 @Component({
   tag: 'psk-form',

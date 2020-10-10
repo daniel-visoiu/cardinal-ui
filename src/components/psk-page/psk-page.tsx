@@ -1,12 +1,8 @@
-import { Chapter } from "../../interfaces/Chapter";
 import { Component, h, Prop, Listen, State, Element } from "@stencil/core";
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+import { Chapter } from 'cardinal-core/interfaces';
+import { scrollToElement, createCustomEvent, highlightChapter } from 'cardinal-core/utils';
 
-import CustomTheme from "../../decorators/CustomTheme";
-
-import { highlightChapter } from "../../utils/highlightChapter";
-import { scrollToElement, createCustomEvent } from "../../utils/utilFunctions";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import { BindModel } from "../../decorators/BindModel";
 import NavigationTrackerService from "../psk-ssapp/NavigationTrackerService.js";
 
 @Component({
