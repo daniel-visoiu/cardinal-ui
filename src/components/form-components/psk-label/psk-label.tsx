@@ -1,7 +1,5 @@
 import { h, Component, Prop } from '@stencil/core';
-import { BindModel } from '../../../decorators/BindModel';
-import { TableOfContentProperty } from '../../../decorators/TableOfContentProperty';
-import CustomTheme from '../../../decorators/CustomTheme';
+import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
 
 @Component({
     tag: 'psk-label'
@@ -11,12 +9,12 @@ export class PskLabel {
     @CustomTheme()
     @BindModel() modelHandler;
 
-    @TableOfContentProperty({
-        description: ['Specifies the label to be displayed.',
-            `If this attribute is not provided, the component will display the content of the component as label.`],
-        isMandatory: false,
-        propertyType: 'string'
-    })
+    // @TableOfContentProperty({
+    //     description: ['Specifies the label to be displayed.',
+    //         `If this attribute is not provided, the component will display the content of the component as label.`],
+    //     isMandatory: false,
+    //     propertyType: 'string'
+    // })
     @Prop() label: string;
 
     @TableOfContentProperty({

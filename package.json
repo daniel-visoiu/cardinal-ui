@@ -15,6 +15,7 @@
         "loader/"
     ],
     "scripts": {
+        "postinstall": "node ./node_modules/octopus/scripts/run",
         "build": "stencil build --docs",
         "build-dev": "stencil build --dev",
         "build-prod": "stencil build --prod",

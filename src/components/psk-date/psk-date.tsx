@@ -1,11 +1,8 @@
 import { h, Component, Prop } from '@stencil/core';
 
-import { BindModel } from '../../decorators/BindModel';
-import { TableOfContentProperty } from '../../decorators/TableOfContentProperty';
-import CustomTheme from '../../decorators/CustomTheme';
-
-import { DATE_FORMAT_MASKS } from '../../utils/constants';
-import DateFormat from '../../controllers/base-controllers/lib/DateFormat';
+import DateFormat from 'cardinal-core/controllers/base-controllers/lib/DateFormat';
+import { BindModel, CustomTheme, TableOfContentProperty } from 'cardinal-core/decorators';
+import { DATE_FORMAT_MASKS } from 'cardinal-core/utils/constants';
 
 @Component({
     tag: 'psk-date'

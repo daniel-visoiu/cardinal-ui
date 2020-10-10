@@ -1,10 +1,11 @@
-import {Component, h, Prop, State, Element, Listen, Host} from '@stencil/core';
-import ControllerRegistryService from "../../services/ControllerRegistryService";
-import { ExtendedHistoryType } from "../../interfaces/ExtendedHistoryType";
 import { HTMLStencilElement } from "@stencil/core/internal";
-import { TableOfContentProperty } from "../../decorators/TableOfContentProperty";
-import DefaultApplicationController from "../../controllers/DefaultApplicationController.js"
-import {MOBILE_MAX_WIDTH} from "../../utils/constants";
+import {Component, h, Prop, State, Element, Listen, Host} from '@stencil/core';
+
+import { DefaultApplicationController } from 'cardinal-core/controllers';
+import { TableOfContentProperty } from 'cardinal-core/decorators';
+import { ExtendedHistoryType } from 'cardinal-core/interfaces';
+import { MOBILE_MAX_WIDTH } from 'cardinal-core/utils';
+import { ControllerRegistryService } from 'cardinal-core/services';
 
 const appMaxWidth = MOBILE_MAX_WIDTH;
 

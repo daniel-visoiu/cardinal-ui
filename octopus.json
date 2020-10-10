@@ -1,0 +1,24 @@
+{
+  "workDir": ".",
+  "dependencies": [
+    {
+      "name": "cardinal-core",
+      "src": "https://github.com/daniel-visoiu/cardinal-core.git",
+      "actions": [
+        {
+          "type": "smartClone",
+          "target": "./node_modules/",
+          "collectLog": false
+        },
+        {
+          "type": "execute",
+          "cmd": "cd ./node_modules/cardinal-core && npm install"
+        },
+        {
+          "type": "execute",
+          "cmd": "cd ./node_modules/cardinal-core && npm run build"
+        }
+      ]
+    }
+  ]
+}
