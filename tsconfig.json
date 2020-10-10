@@ -18,8 +18,8 @@
     "baseUrl": "./",
     "paths": {
       "cardinal-core/*": [
-        "./node_modules/cardinal-core/dist/types/*",
-        "./node_modules/cardinal-core/dist/collection/*",
+        // "./node_modules/cardinal-core/dist/types/*",
+        "./node_modules/cardinal-core/dist/collection/*"
       ]
     }
   },
