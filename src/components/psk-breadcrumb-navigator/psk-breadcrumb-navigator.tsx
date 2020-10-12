@@ -1,7 +1,8 @@
 import { Component, h, Element, Host, Prop } from '@stencil/core';
 import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { BreadcrumbSegment } from 'cardinal-core/interfaces';
-import { BREADCRUMB_CONSTANTS } from 'cardinal-core/utils';
+
+import { BreadcrumbSegment } from '@interfaces/BreadcrumbSegment';
+import { BREADCRUMB_CONSTANTS } from '@utils/constants';
 
 @Component({
 	tag: 'psk-breadcrumb-navigator',

@@ -22,6 +22,15 @@
       ],
       "@libs/*": [
         "src/libs/*"
+      ],
+      "@events/*": [
+        "src/events/*"
+      ],
+      "@interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
       ]
     },
     // "allowJs": true,

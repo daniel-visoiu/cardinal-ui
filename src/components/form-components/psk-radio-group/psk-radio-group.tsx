@@ -1,6 +1,6 @@
 import { h, Component, Prop, Listen, Element, State } from '@stencil/core';
 import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { RadioOption } from 'cardinal-core/interfaces';
+import { RadioOption } from '@interfaces/FormModel';
 
 @Component({
     tag: 'psk-radio-group'

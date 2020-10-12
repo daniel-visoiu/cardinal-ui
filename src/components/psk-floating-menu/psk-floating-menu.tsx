@@ -1,6 +1,7 @@
 import { Component, h, Prop, Event, EventEmitter, State } from '@stencil/core';
 import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { MenuItem } from 'cardinal-core/interfaces';
+
+import { MenuItem } from '@interfaces/MenuItem';
 
 @Component({
     tag: 'psk-floating-menu',

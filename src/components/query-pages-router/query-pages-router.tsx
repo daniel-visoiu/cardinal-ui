@@ -1,7 +1,8 @@
 import { Component, h, Element, Prop, Watch, State } from '@stencil/core';
 import { LocationSegments, RouterHistory, injectHistory } from "@stencil/router";
 import { HTMLStencilElement } from "@stencil/core/internal";
-import { MenuItem } from 'cardinal-core/interfaces';
+
+import { MenuItem } from '@interfaces/MenuItem';
 
 @Component({
   tag: 'query-pages-router',

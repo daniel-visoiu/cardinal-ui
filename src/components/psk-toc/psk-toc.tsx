@@ -1,7 +1,8 @@
 import { Component, h, Prop, State, getElement, Listen } from '@stencil/core';
 import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { Chapter } from 'cardinal-core/interfaces';
 import { closestParentElement, scrollToElement } from 'cardinal-core/utils';
+
+import { Chapter } from '@interfaces/Chapter';
 
 @Component({
     tag: 'psk-toc',

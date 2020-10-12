@@ -1,8 +1,9 @@
 import { Component, Prop, State, Element, h } from '@stencil/core';
 import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { PskButtonEvent } from 'cardinal-core/events';
-import { Option, SelectType } from 'cardinal-core/interfaces';
 import { normalizeRegexToString, INVALID_ID_CHARACTERS_REGEX } from 'cardinal-core/utils';
+
+import PskButtonEvent from '@events/PskButtonEvent';
+import { Option, SelectType } from '@interfaces/FormModel';
 
 @Component({
   tag: 'psk-select'

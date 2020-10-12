@@ -1,6 +1,8 @@
 import { Component, State, Event, EventEmitter, Listen, h, Prop, Watch } from "@stencil/core";
 import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { Message, StyleCustomisation } from 'cardinal-core/interfaces';
+
+import { StyleCustomisation } from '@interfaces/StyleCustomisation';
+import { Message } from '@interfaces/FeedbackMessage';
 
 import Config from "./Config.js";
 

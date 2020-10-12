@@ -1,6 +1,8 @@
 import {Component, Event, EventEmitter, h, Prop} from '@stencil/core';
 import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { ExtendedHistoryType, MenuItem } from 'cardinal-core/interfaces';
+
+import { ExtendedHistoryType } from '@interfaces/ExtendedHistoryType';
+import { MenuItem } from '@interfaces/MenuItem';
 
 @Component({
   tag: 'psk-menu-item-renderer',

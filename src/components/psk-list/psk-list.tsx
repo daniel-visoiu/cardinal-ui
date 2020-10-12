@@ -1,6 +1,8 @@
 import { Component, h, Prop, Element } from "@stencil/core";
 import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { getInnerHTML, PSK_LIST_PARSE_CONFIG, LIST_TYPE_ORDERED } from 'cardinal-core/utils';
+import { getInnerHTML } from 'cardinal-core/utils';
+
+import { PSK_LIST_PARSE_CONFIG, LIST_TYPE_ORDERED } from '@utils/constants';
 
 @Component({
     tag: "psk-list",
