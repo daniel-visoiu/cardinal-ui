@@ -1,4 +1,4 @@
-import { closestParentTagElement } from "cardinal-core/utils";
+const { closestParentTagElement } = window.cardinalCore;
 
 import { ChapterDetails } from "../interfaces/ChapterDetails";
 

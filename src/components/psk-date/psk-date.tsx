@@ -1,7 +1,6 @@
 import { h, Component, Prop } from '@stencil/core';
-import DateFormat from 'cardinal-core/controllers/base-controllers/lib/DateFormat';
-import { BindModel, CustomTheme, TableOfContentProperty } from 'cardinal-core/decorators';
-import { DATE_FORMAT_MASKS } from 'cardinal-core/utils';
+
+const { BindModel, CustomTheme, TableOfContentProperty, DateFormat, DATE_FORMAT_MASKS } = window.cardinalCore;
 
 @Component({
     tag: 'psk-date'

@@ -1,5 +1,6 @@
 import {Component, h, State} from '@stencil/core';
-import { CustomTheme } from 'cardinal-core/decorators';
+
+const { CustomTheme } = window.cardinalCore;
 
 @Component({
   tag: 'psk-load-placeholder',

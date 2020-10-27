@@ -2,12 +2,8 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
-    "declaration": true,
     "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "lib": ["dom", "es2017"],
     "moduleResolution": "node",
     "module": "esnext",
     "target": "es2017",
@@ -17,32 +13,14 @@
     "jsxFactory": "h",
     "baseUrl": ".",
     "paths": {
-      "cardinal-core/*": [
-        "cardinal-core/src/*",
-      ],
-      "@libs/*": [
-        "src/libs/*"
-      ],
-      "@events/*": [
-        "src/events/*"
-      ],
-      "@interfaces/*": [
-        "src/interfaces/*"
-      ],
-      "@utils/*": [
-        "src/utils/*"
-      ]
+      "@cardinal-core-declarations": ["./cardinal-core/dist/types/decorators/declarations/declarations"],
+      "@libs/*": ["src/libs/*"],
+      "@events/*": ["src/events/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@utils/*": ["src/utils/*"]
     },
-    // "allowJs": true,
-    // "traceResolution": true
+    "types": ["./cardinal-core/dist/types"]
   },
-  "include": [
-    "src",
-    "assets",
-    "types/jsx.d.ts"
-  ],
-  "exclude": [
-    "src/libs",
-    "node_modules"
-  ]
+  "include": ["src", "assets", "types/jsx.d.ts"],
+  "exclude": ["src/libs", "node_modules"]
 }

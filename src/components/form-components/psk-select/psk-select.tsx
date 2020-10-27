@@ -1,6 +1,6 @@
 import { Component, Prop, State, Element, h } from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { normalizeRegexToString, INVALID_ID_CHARACTERS_REGEX } from 'cardinal-core/utils';
+
+const { BindModel, TableOfContentProperty, CustomTheme, normalizeRegexToString, INVALID_ID_CHARACTERS_REGEX } = window.cardinalCore;
 
 import PskButtonEvent from '@events/PskButtonEvent';
 import { Option, SelectType } from '@interfaces/FormModel';

@@ -1,6 +1,5 @@
 import { Component, Listen, Prop, State, Event, EventEmitter, h } from '@stencil/core';
-import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { MOBILE_MAX_WIDTH } from 'cardinal-core/utils';
+const { TableOfContentEvent, TableOfContentProperty, CustomTheme, MOBILE_MAX_WIDTH } = window.cardinalCore;
 
 import { MenuItem } from '@interfaces/MenuItem';
 import { ExtendedHistoryType } from '@interfaces/ExtendedHistoryType';

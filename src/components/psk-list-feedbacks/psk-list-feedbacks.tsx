@@ -1,5 +1,5 @@
 import { Component, State, Event, EventEmitter, Listen, h, Prop, Watch } from "@stencil/core";
-import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+const { TableOfContentEvent, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import { StyleCustomisation } from '@interfaces/StyleCustomisation';
 import { Message } from '@interfaces/FeedbackMessage';

@@ -1,5 +1,5 @@
 import {Component, h, Prop} from '@stencil/core';
-import { CustomTheme } from 'cardinal-core/decorators';
+const { CustomTheme } = window.cardinalCore;
 
 import { ExtendedHistoryType } from '@interfaces/ExtendedHistoryType';
 import { MenuItem } from '@interfaces/MenuItem';

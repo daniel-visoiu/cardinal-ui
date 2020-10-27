@@ -1,6 +1,5 @@
 import { Component, h, Prop, Element } from "@stencil/core";
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { getInnerHTML } from 'cardinal-core/utils';
+const { TableOfContentProperty, CustomTheme, getInnerHTML } = window.cardinalCore;
 
 import { PSK_LIST_PARSE_CONFIG, LIST_TYPE_ORDERED } from '@utils/constants';
 

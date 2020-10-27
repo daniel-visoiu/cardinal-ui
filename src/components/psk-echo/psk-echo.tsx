@@ -1,5 +1,5 @@
 import { Component, Prop } from '@stencil/core';
-import { BindModel, TableOfContentProperty } from 'cardinal-core/decorators';
+const { BindModel, TableOfContentProperty } = window.cardinalCore;
 
 @Component({
   tag: 'psk-echo'

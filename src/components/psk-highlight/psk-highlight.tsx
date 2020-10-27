@@ -1,5 +1,5 @@
 import { Component, h, Prop } from "@stencil/core";
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+const { TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import Config from "./Config.js";
 

@@ -1,5 +1,6 @@
 import { Component, h, EventEmitter, Event, Prop, } from '@stencil/core';
-import { BindModel, TableOfContentEvent, TableOfContentProperty } from 'cardinal-core/decorators';
+
+const { BindModel, TableOfContentEvent, TableOfContentProperty } = window.cardinalCore;
 
 @Component({
   tag: 'psk-user-profile'

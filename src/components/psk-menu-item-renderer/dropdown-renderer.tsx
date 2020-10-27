@@ -1,5 +1,5 @@
 import {Component, getElement, h, Listen,  Prop, State} from '@stencil/core';
-import { TableOfContentProperty } from 'cardinal-core/decorators';
+const { TableOfContentProperty } = window.cardinalCore;
 
 @Component({
   tag: 'dropdown-renderer',

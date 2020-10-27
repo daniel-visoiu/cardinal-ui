@@ -1,5 +1,6 @@
 import { Component, h, Prop, Element, State } from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
+const { BindModel, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import PskButtonEvent from '@events/PskButtonEvent';
 

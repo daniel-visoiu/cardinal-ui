@@ -1,6 +1,5 @@
 import { Component, Prop, h, Element } from '@stencil/core';
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { createCustomEvent } from 'cardinal-core/utils';
+const { TableOfContentProperty, CustomTheme, createCustomEvent } = window.cardinalCore;
 
 import { ACTIONS_ICONS } from '@utils/constants';
 

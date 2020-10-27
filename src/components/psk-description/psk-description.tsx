@@ -1,5 +1,5 @@
 import { Component, h, Prop } from "@stencil/core";
-import { TableOfContentProperty } from 'cardinal-core/decorators';
+const { TableOfContentProperty } = window.cardinalCore;
 
 @Component({
 	tag: "psk-description"

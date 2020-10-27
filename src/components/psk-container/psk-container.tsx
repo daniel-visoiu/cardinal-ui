@@ -1,9 +1,12 @@
 import {Component, h, Prop, Element, State} from "@stencil/core";
 import {injectHistory, RouterHistory} from "@stencil/router";
 
-import { ContainerController as DefaultContainerController } from 'cardinal-core/controllers';
-import { CustomTheme, TableOfContentProperty } from 'cardinal-core/decorators';
-import { ControllerRegistryService } from 'cardinal-core/services';
+const {
+  ContainerController: DefaultContainerController,
+  CustomTheme,
+  TableOfContentProperty,
+  ControllerRegistryService,
+} = window.cardinalCore;
 
 @Component({
   tag: "psk-container"

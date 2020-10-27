@@ -1,5 +1,5 @@
 import { Component, h, Element, Host, Prop } from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+const { BindModel, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import { BreadcrumbSegment } from '@interfaces/BreadcrumbSegment';
 import { BREADCRUMB_CONSTANTS } from '@utils/constants';

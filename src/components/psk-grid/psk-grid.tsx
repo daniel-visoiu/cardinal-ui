@@ -1,6 +1,5 @@
 import {Component, Element, h, Prop} from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { normalizeDashedToCamelCase } from 'cardinal-core/utils';
+const { BindModel, TableOfContentProperty, CustomTheme, normalizeDashedToCamelCase } = window.cardinalCore;
 
 import { GRID_BREAKPOINTS, GRID_HIDDEN_BREAKPOINTS, GRID_IGNORED_COMPONENTS } from '@utils/constants';
 

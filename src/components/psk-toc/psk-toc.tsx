@@ -1,6 +1,6 @@
 import { Component, h, Prop, State, getElement, Listen } from '@stencil/core';
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { closestParentElement, scrollToElement } from 'cardinal-core/utils';
+
+const { TableOfContentProperty, CustomTheme, closestParentElement, scrollToElement } = window.cardinalCore;
 
 import { Chapter } from '@interfaces/Chapter';
 

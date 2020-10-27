@@ -1,5 +1,6 @@
 import { Component, h, Listen, Prop, State, Element } from "@stencil/core";
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
+const { TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 @Component({
   tag: 'psk-slideshow',

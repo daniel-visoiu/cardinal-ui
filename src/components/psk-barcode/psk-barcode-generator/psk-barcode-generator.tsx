@@ -1,6 +1,5 @@
 import {Component, h, Prop, Element, State, Watch} from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { stringToBoolean } from 'cardinal-core/utils';
+const { BindModel, TableOfContentProperty, CustomTheme, stringToBoolean } = window.cardinalCore;
 
 import bwipjs from "@libs/bwip.js";
 

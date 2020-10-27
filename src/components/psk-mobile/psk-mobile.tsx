@@ -1,7 +1,6 @@
 import { Component, Prop, State, Element, Listen, Method, h } from "@stencil/core";
 import { RouterHistory } from "@stencil/router";
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { ControllerRegistryService } from 'cardinal-core/services';
+const { TableOfContentProperty, CustomTheme, ControllerRegistryService } = window.cardinalCore;
 
 @Component({
   tag: 'psk-mobile',

@@ -1,5 +1,5 @@
 import {Component, h, Prop, Event, EventEmitter, State} from "@stencil/core";
-import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+const { TableOfContentEvent, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 let tagsDictionary;
 

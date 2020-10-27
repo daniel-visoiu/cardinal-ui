@@ -1,6 +1,6 @@
 import {Component, Event, EventEmitter, h, Prop, State} from "@stencil/core";
-import { CustomTheme } from 'cardinal-core/decorators';
-import { MOBILE_MAX_WIDTH } from 'cardinal-core/utils';
+
+const { CustomTheme , MOBILE_MAX_WIDTH } = window.cardinalCore;
 
 @Component({
 	tag: 'psk-default-renderer',

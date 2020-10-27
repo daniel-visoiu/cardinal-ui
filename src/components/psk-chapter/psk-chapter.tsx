@@ -1,6 +1,5 @@
 import { Component, h, Prop, Event, EventEmitter, Listen, getElement, State } from "@stencil/core";
-import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { normalizeElementId } from 'cardinal-core/utils';
+const { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme, normalizeElementId } = window.cardinalCore;
 
 import { Chapter } from '@interfaces/Chapter';
 

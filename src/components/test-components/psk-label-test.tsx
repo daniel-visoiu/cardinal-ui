@@ -1,6 +1,6 @@
 import {h, Component, Prop, getElement, State} from '@stencil/core';
-import { BindModel } from 'cardinal-core/decorators';
 
+const { BindModel } = window.cardinalCore;
 
 @Component({
     tag: 'psk-label-test'

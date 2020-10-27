@@ -1,6 +1,5 @@
 import { Component, h, Prop, Listen, State, Element } from "@stencil/core";
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { scrollToElement, createCustomEvent } from 'cardinal-core/utils';
+const { BindModel, TableOfContentProperty, CustomTheme, scrollToElement, createCustomEvent } = window.cardinalCore;
 
 import { Chapter } from '@interfaces/Chapter';
 import { highlightChapter } from '@utils/highlightChapter';

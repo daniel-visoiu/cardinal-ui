@@ -1,5 +1,6 @@
 import { Component, h, Prop } from '@stencil/core';
-import { TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
+const { TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 @Component({
 	tag: 'psk-page-not-found',

@@ -1,5 +1,6 @@
 import { Component, h, Prop, State, Event, EventEmitter, Element } from '@stencil/core';
-import { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
+
+const { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import WizardEvent from '@events/WizardEvent';
 import { WizardStep } from '@interfaces/Wizard';

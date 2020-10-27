@@ -1,6 +1,5 @@
 import {Component, h, Prop, Element} from '@stencil/core';
-import { BindModel, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { stringToBoolean } from 'cardinal-core/utils';
+const { BindModel, TableOfContentProperty, CustomTheme, stringToBoolean } = window.cardinalCore;
 
 import audioData from './audioData.js';
 import BarcodeUtilFunctions from "./barcode-util-functions.js";

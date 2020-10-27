@@ -1,6 +1,5 @@
 import { Component, h, Prop, Element, Event, EventEmitter, State } from "@stencil/core";
-import { TableOfContentEvent, TableOfContentProperty, CustomTheme } from 'cardinal-core/decorators';
-import { closestParentElement, normalizeElementId, scrollToElement} from 'cardinal-core/utils';
+const { TableOfContentEvent, TableOfContentProperty, CustomTheme, closestParentElement, normalizeElementId, scrollToElement} = window.cardinalCore;
 
 import { TOOLTIP_TEXT, TOOLTIP_COPIED_TEXT } from '@utils/constants';
 

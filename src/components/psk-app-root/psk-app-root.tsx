@@ -1,9 +1,11 @@
 import { HTMLStencilElement } from "@stencil/core/internal";
 import {Component, h, Prop, State, Element, Listen, Host} from '@stencil/core';
-import { DefaultApplicationController } from 'cardinal-core/controllers';
-import { TableOfContentProperty } from 'cardinal-core/decorators';
-import { MOBILE_MAX_WIDTH } from 'cardinal-core/utils';
-import { ControllerRegistryService } from 'cardinal-core/services';
+const {
+  DefaultApplicationController,
+  TableOfContentProperty,
+  MOBILE_MAX_WIDTH,
+  ControllerRegistryService,
+} = window.cardinalCore;
 
 import { ExtendedHistoryType } from '@interfaces/ExtendedHistoryType';
 

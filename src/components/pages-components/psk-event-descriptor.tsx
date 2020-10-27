@@ -1,6 +1,7 @@
 import { Component, h, Listen, State, Prop } from "@stencil/core";
-import { EventOptions } from 'cardinal-core/decorators';
-import { normalizeElementId } from 'cardinal-core/utils';
+
+import { EventOptions } from "@cardinal-core-declarations";
+const { normalizeElementId } = window.cardinalCore;
 
 @Component({
     tag: "psk-event-descriptor"
