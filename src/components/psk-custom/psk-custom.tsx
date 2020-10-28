@@ -1,4 +1,4 @@
-import { Component, h } from '@stencil/core';
+const { Component, h } = window.stencilCore;
 
 const { CustomTheme } = window.cardinalCore;
 

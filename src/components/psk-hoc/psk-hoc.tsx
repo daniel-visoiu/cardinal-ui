@@ -1,4 +1,4 @@
-import { Component, h, Host } from "@stencil/core";
+const { Component, h, Host } = window.stencilCore;
 
 @Component({
   tag: "psk-hoc"

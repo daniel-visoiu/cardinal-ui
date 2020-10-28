@@ -1,5 +1,5 @@
 import { HTMLStencilElement } from "@stencil/core/internal";
-import {Component, h, Prop, State, Element, Listen, Host} from '@stencil/core';
+const {Component, h, Prop, State, Element, Listen, Host} = window.stencilCore;
 const {
   DefaultApplicationController,
   TableOfContentProperty,

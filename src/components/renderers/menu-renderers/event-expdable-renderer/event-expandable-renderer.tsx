@@ -1,5 +1,6 @@
-import {Component, h, Prop, State, Element} from '@stencil/core';
-import {injectHistory, RouterHistory} from "@stencil/router";
+const {Component, h, Prop, State, Element} = window.stencilCore;
+const {injectHistory} = window.stencilRouter;
+import { RouterHistory } from "@stencil/router/dist/types/global/interfaces";
 
 import SubMenuItemsEvent from '@events/SubMenuItemsEvent';
 

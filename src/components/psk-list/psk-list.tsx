@@ -1,4 +1,4 @@
-import { Component, h, Prop, Element } from "@stencil/core";
+const { Component, h, Prop, Element } = window.stencilCore;
 const { TableOfContentProperty, CustomTheme, getInnerHTML } = window.cardinalCore;
 
 import { PSK_LIST_PARSE_CONFIG, LIST_TYPE_ORDERED } from '@utils/constants';

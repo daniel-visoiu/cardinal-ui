@@ -1,4 +1,4 @@
-import { Component, h, Prop, Listen, getElement } from '@stencil/core';
+const { Component, h, Prop, Listen, getElement } = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme, stringToBoolean } = window.cardinalCore;
 
 @Component({

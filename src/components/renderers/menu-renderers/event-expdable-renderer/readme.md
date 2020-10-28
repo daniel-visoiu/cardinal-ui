@@ -7,14 +7,14 @@
 
 ## Properties
 
-| Property           | Attribute           | Description | Type            | Default     |
-| ------------------ | ------------------- | ----------- | --------------- | ----------- |
-| `active`           | `active`            |             | `boolean`       | `undefined` |
-| `firstMenuChild`   | `first-menu-child`  |             | `any`           | `undefined` |
-| `history`          | --                  |             | `RouterHistory` | `undefined` |
-| `item`             | `item`              |             | `any`           | `undefined` |
-| `somethingChanged` | `something-changed` |             | `boolean`       | `false`     |
-| `url`              | `url`               |             | `any`           | `undefined` |
+| Property           | Attribute           | Description | Type      | Default     |
+| ------------------ | ------------------- | ----------- | --------- | ----------- |
+| `active`           | `active`            |             | `boolean` | `undefined` |
+| `firstMenuChild`   | `first-menu-child`  |             | `any`     | `undefined` |
+| `history`          | `history`           |             | `any`     | `undefined` |
+| `item`             | `item`              |             | `any`     | `undefined` |
+| `somethingChanged` | `something-changed` |             | `boolean` | `false`     |
+| `url`              | `url`               |             | `any`     | `undefined` |
 
 
 ## Dependencies

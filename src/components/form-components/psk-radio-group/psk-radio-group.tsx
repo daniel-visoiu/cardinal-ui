@@ -1,4 +1,4 @@
-import { h, Component, Prop, Listen, Element, State } from '@stencil/core';
+const { h, Component, Prop, Listen, Element, State } = window.stencilCore;
 import { RadioOption } from '@interfaces/FormModel';
 
 const { BindModel, TableOfContentProperty, CustomTheme } = window.cardinalCore;

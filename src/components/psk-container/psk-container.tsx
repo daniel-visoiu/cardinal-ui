@@ -1,5 +1,6 @@
-import {Component, h, Prop, Element, State} from "@stencil/core";
-import {injectHistory, RouterHistory} from "@stencil/router";
+const {Component, h, Prop, Element, State} = window.stencilCore;
+const {injectHistory } = window.stencilRouter;
+import { RouterHistory } from "@stencil/router/dist/types/global/interfaces";
 
 const {
   ContainerController: DefaultContainerController,

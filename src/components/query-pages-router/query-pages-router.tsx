@@ -1,6 +1,7 @@
-import { Component, h, Element, Prop, Watch, State } from '@stencil/core';
-import { LocationSegments, RouterHistory, injectHistory } from "@stencil/router";
+const { Component, h, Element, Prop, Watch, State } = window.stencilCore;
+const {  injectHistory } = window.stencilRouter;
 import { HTMLStencilElement } from "@stencil/core/internal";
+import { LocationSegments, RouterHistory } from "@stencil/router/dist/types";
 
 import { MenuItem } from '@interfaces/MenuItem';
 

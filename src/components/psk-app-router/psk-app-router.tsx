@@ -1,4 +1,5 @@
-import {Component, Event, EventEmitter, Prop, h, State} from "@stencil/core";
+import { EventEmitter } from "@stencil/router/dist/types/stencil.core";
+const {Component, Event, Prop, h, State} = window.stencilCore;
 const { TableOfContentEvent, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import { ExtendedHistoryType } from '@interfaces/ExtendedHistoryType';

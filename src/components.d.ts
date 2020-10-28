@@ -5,13 +5,14 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { LocationSegments, MatchResults, RouterHistory } from "@stencil/router";
+import { LocationSegments, MatchResults, RouterHistory } from "@stencil/router/dist/types/global/interfaces";
 import { MenuItem } from "@interfaces/MenuItem";
 import { ExtendedHistoryType } from "@interfaces/ExtendedHistoryType";
 import { BreadcrumbSegment } from "@interfaces/BreadcrumbSegment";
 import { StyleCustomisation } from "@interfaces/StyleCustomisation";
 import { SelectType } from "@interfaces/FormModel";
 import { WizardStep } from "@interfaces/Wizard";
+import { LocationSegments as LocationSegments1, RouterHistory as RouterHistory1 } from "@stencil/router/dist/types";
 export namespace Components {
     interface DropdownRenderer {
         "active": boolean;
@@ -208,7 +209,7 @@ export namespace Components {
     interface PskForm {
         "controllerName": string | null;
         "formActions"?: string | null;
-        "history": RouterHistory;
+        "history": any;
     }
     interface PskFormRow {
         "layout": string | null;
@@ -1378,7 +1379,7 @@ declare namespace LocalJSX {
     interface PskForm {
         "controllerName"?: string | null;
         "formActions"?: string | null;
-        "history"?: RouterHistory;
+        "history"?: any;
     }
     interface PskFormRow {
         "layout"?: string | null;

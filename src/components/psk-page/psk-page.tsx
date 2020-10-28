@@ -1,4 +1,4 @@
-import { Component, h, Prop, Listen, State, Element } from "@stencil/core";
+const { Component, h, Prop, Listen, State, Element } = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme, scrollToElement, createCustomEvent } = window.cardinalCore;
 
 import { Chapter } from '@interfaces/Chapter';

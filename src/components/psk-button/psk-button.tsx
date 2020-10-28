@@ -1,4 +1,4 @@
-import { Component, h, Prop, Element, Host } from '@stencil/core';
+const { Component, h, Prop, Element, Host } = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme, stringToBoolean } = window.cardinalCore;
 
 import PskButtonEvent from '@events/PskButtonEvent';

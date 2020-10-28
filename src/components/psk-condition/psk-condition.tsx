@@ -1,4 +1,5 @@
-import {Component, h, Prop, State, Element, Event, EventEmitter} from "@stencil/core";
+import { EventEmitter } from "@stencil/router/dist/types/stencil.core";
+const {Component, h, Prop, State, Element, Event } = window.stencilCore;
 
 const { TableOfContentProperty, normalizeModelChain, stringToBoolean } = window.cardinalCore;
 

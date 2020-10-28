@@ -1,4 +1,4 @@
-import { Component, h, Prop } from "@stencil/core";
+const { Component, h, Prop } = window.stencilCore;
 
 @Component({
     tag: "psk-chapter-wrapper"

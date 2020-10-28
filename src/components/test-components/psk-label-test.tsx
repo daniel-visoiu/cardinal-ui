@@ -1,4 +1,4 @@
-import {h, Component, Prop, getElement, State} from '@stencil/core';
+const {h, Component, Prop, getElement, State} = window.stencilCore;
 
 const { BindModel } = window.cardinalCore;
 

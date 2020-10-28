@@ -7,12 +7,12 @@
 
 ## Properties
 
-| Property         | Attribute         | Description | Type            | Default     |
-| ---------------- | ----------------- | ----------- | --------------- | ----------- |
-| `controllerName` | `controller-name` |             | `string`        | `undefined` |
-| `history`        | --                |             | `RouterHistory` | `undefined` |
-| `htmlFilePath`   | `html-file-path`  |             | `string`        | `undefined` |
-| `parentCallback` | --                |             | `Function`      | `undefined` |
+| Property         | Attribute         | Description | Type       | Default     |
+| ---------------- | ----------------- | ----------- | ---------- | ----------- |
+| `controllerName` | `controller-name` |             | `string`   | `undefined` |
+| `history`        | `history`         |             | `any`      | `undefined` |
+| `htmlFilePath`   | `html-file-path`  |             | `string`   | `undefined` |
+| `parentCallback` | --                |             | `Function` | `undefined` |
 
 
 ## Dependencies

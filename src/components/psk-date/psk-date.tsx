@@ -1,4 +1,4 @@
-import { h, Component, Prop } from '@stencil/core';
+const { h, Component, Prop } = window.stencilCore;
 
 const { BindModel, CustomTheme, TableOfContentProperty, DateFormat, DATE_FORMAT_MASKS } = window.cardinalCore;
 

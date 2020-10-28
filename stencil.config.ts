@@ -1,5 +1,5 @@
 import './bin/remove_warnings_plugin.js'
-import { Config } from '@stencil/core';
+import { Config } = window.stencilCore;;
 
 export interface CardinalConfig extends Config {
   readonly useBootstrap: boolean;

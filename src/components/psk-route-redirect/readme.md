@@ -7,10 +7,10 @@
 
 ## Properties
 
-| Property  | Attribute | Description | Type            | Default     |
-| --------- | --------- | ----------- | --------------- | ----------- |
-| `history` | --        |             | `RouterHistory` | `undefined` |
-| `url`     | `url`     |             | `any`           | `undefined` |
+| Property  | Attribute | Description | Type  | Default     |
+| --------- | --------- | ----------- | ----- | ----------- |
+| `history` | `history` |             | `any` | `undefined` |
+| `url`     | `url`     |             | `any` | `undefined` |
 
 
 ----------------------------------------------

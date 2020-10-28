@@ -1,4 +1,4 @@
-import {Component, getElement, h, Listen,  Prop, State} from '@stencil/core';
+const {Component, getElement, h, Listen,  Prop, State} = window.stencilCore;
 const { TableOfContentProperty } = window.cardinalCore;
 
 @Component({

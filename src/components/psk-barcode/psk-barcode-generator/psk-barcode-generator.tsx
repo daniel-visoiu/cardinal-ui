@@ -1,4 +1,4 @@
-import {Component, h, Prop, Element, State, Watch} from '@stencil/core';
+const {Component, h, Prop, Element, State, Watch} = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme, stringToBoolean } = window.cardinalCore;
 
 import bwipjs from "@libs/bwip.js";

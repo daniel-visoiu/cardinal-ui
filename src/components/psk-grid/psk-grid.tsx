@@ -1,4 +1,4 @@
-import {Component, Element, h, Prop} from '@stencil/core';
+const {Component, Element, h, Prop} = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme, normalizeDashedToCamelCase } = window.cardinalCore;
 
 import { GRID_BREAKPOINTS, GRID_HIDDEN_BREAKPOINTS, GRID_IGNORED_COMPONENTS } from '@utils/constants';

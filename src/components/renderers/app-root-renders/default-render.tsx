@@ -1,4 +1,5 @@
-import {Component, Event, EventEmitter, h, Prop, State} from "@stencil/core";
+import { EventEmitter } from "@stencil/router/dist/types/stencil.core";
+const {Component, Event, h, Prop, State} = window.stencilCore;
 
 const { CustomTheme , MOBILE_MAX_WIDTH } = window.cardinalCore;
 

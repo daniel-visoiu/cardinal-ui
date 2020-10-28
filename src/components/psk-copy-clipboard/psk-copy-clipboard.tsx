@@ -1,4 +1,5 @@
-import { Component, h, Prop, Element, Event, EventEmitter, State } from "@stencil/core";
+import { EventEmitter } from "@stencil/router/dist/types/stencil.core";
+const { Component, h, Prop, Element, Event, State } = window.stencilCore;
 const { TableOfContentEvent, TableOfContentProperty, CustomTheme, closestParentElement, normalizeElementId, scrollToElement} = window.cardinalCore;
 
 import { TOOLTIP_TEXT, TOOLTIP_COPIED_TEXT } from '@utils/constants';

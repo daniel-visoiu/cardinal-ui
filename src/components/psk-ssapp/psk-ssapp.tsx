@@ -1,5 +1,5 @@
-import { Component, h, Prop, State, Element, Watch } from '@stencil/core';
-import { MatchResults, RouterHistory } from "@stencil/router";
+const { Component, h, Prop, State, Element, Watch } = window.stencilCore;
+import { MatchResults, RouterHistory } from "@stencil/router/dist/types/global/interfaces";
 const { BindModel, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import SSAppInstanceRegistry from "./SSAppInstancesRegistry.js";

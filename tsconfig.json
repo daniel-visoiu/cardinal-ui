@@ -14,6 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "@cardinal-core-declarations": ["./cardinal-core/dist/types/decorators/declarations/declarations"],
+      "@stencil/router-type": ["./cardinal-core/dist/types/decorators/declarations/declarations"],
       "@libs/*": ["src/libs/*"],
       "@events/*": ["src/events/*"],
       "@interfaces/*": ["src/interfaces/*"],

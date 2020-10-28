@@ -1,4 +1,5 @@
-import { Component, Prop, Element, Event, EventEmitter, h } from "@stencil/core";
+import { EventEmitter } from "@stencil/router/dist/types/stencil.core";
+const { Component, Prop, Element, Event, h } = window.stencilCore;
 const { BindModel, TableOfContentEvent, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import PskButtonEvent from '@events/PskButtonEvent';

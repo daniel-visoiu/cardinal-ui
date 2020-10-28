@@ -7,11 +7,11 @@
 
 ## Properties
 
-| Property         | Attribute         | Description | Type            | Default     |
-| ---------------- | ----------------- | ----------- | --------------- | ----------- |
-| `controllerName` | `controller-name` |             | `string`        | `undefined` |
-| `formActions`    | `form-actions`    |             | `string`        | `''`        |
-| `history`        | --                |             | `RouterHistory` | `undefined` |
+| Property         | Attribute         | Description | Type     | Default     |
+| ---------------- | ----------------- | ----------- | -------- | ----------- |
+| `controllerName` | `controller-name` |             | `string` | `undefined` |
+| `formActions`    | `form-actions`    |             | `string` | `''`        |
+| `history`        | `history`         |             | `any`    | `undefined` |
 
 
 ----------------------------------------------

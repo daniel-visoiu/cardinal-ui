@@ -1,4 +1,4 @@
-import { Component, Prop, h, Element } from '@stencil/core';
+const { Component, Prop, h, Element } = window.stencilCore;
 const { TableOfContentProperty, CustomTheme, createCustomEvent } = window.cardinalCore;
 
 import { ACTIONS_ICONS } from '@utils/constants';

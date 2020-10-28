@@ -1,5 +1,5 @@
-import { Component, Prop, State, Element, Listen, Method, h } from "@stencil/core";
-import { RouterHistory } from "@stencil/router";
+const { Component, Prop, State, Element, Listen, Method, h } = window.stencilCore;
+import { RouterHistory } from "@stencil/router/dist/types/global/interfaces";
 const { TableOfContentProperty, CustomTheme, ControllerRegistryService } = window.cardinalCore;
 
 @Component({

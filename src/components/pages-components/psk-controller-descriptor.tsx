@@ -1,4 +1,4 @@
-import { Component, Prop, State, Listen, h } from "@stencil/core";
+const { Component, Prop, State, Listen, h } = window.stencilCore;
 
 import { EventOptions } from "@cardinal-core-declarations";
 const { normalizeElementId } = window.cardinalCore;

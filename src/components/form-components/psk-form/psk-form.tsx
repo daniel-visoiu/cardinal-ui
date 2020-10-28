@@ -1,5 +1,5 @@
-import {Component, h, Prop, Element, State} from '@stencil/core';
-import {injectHistory, RouterHistory} from "@stencil/router";
+const {Component, h, Prop, Element, State} = window.stencilCore;
+const {injectHistory } = window.stencilRouter;
 
 const { TableOfContentProperty, CustomTheme, ControllerRegistryService } = window.cardinalCore;
 
@@ -16,7 +16,8 @@ export class PskForm {
   @State() controller: any | null;
   @State() disconnected: boolean | false;
 
-  @Prop() history: RouterHistory;
+  // @Prop() history: RouterHistory;
+  @Prop() history: any;
 
   connectedCallback() {
     this.disconnected = false;

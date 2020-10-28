@@ -1,4 +1,4 @@
-import { Component, h, Element, Host, Prop } from '@stencil/core';
+const { Component, h, Element, Host, Prop } = window.stencilCore;
 const { BindModel, TableOfContentProperty, CustomTheme } = window.cardinalCore;
 
 import { BreadcrumbSegment } from '@interfaces/BreadcrumbSegment';

@@ -1,5 +1,6 @@
-import {Component, Prop} from "@stencil/core";
-import {injectHistory, RouterHistory} from "@stencil/router";
+const {Component, Prop} = window.stencilCore;
+import {RouterHistory } from "@stencil/router/dist/types/global/interfaces";
+const {injectHistory} = window.stencilRouter;
 
 @Component({
   tag: "psk-route-redirect",

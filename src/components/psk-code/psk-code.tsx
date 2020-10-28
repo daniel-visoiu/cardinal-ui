@@ -1,4 +1,4 @@
-import { Component, Element, h, State, Prop } from "@stencil/core";
+const { Component, Element, h, State, Prop } = window.stencilCore;
 import Prism from 'prismjs';
 import "prismjs/components/prism-json.js";
 import "prismjs/components/prism-bash.js";
